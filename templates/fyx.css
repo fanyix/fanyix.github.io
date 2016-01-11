@@ -1,0 +1,24 @@
+
+
+body {
+    /*font-family: "Source Sans Pro", sans-serif;*/
+    font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    /*font-family: "Source Serif Pro", serif;*/
+    font-family: "Lato", serif;
+}
+
+/*a[href^="mailto:"]
+{ 
+  font-family: "Lato";
+  color: red;
+  font-size: 11px;
+}*/
+
+div.container {
+    max-width: 700px;
+}
+
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Serif+Pro' rel='stylesheet' type='text/css'>

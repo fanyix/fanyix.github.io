@@ -1,0 +1,134 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="StyleSheet" href="./files/style.css" type="text/css" media="all"> 
+
+<title>Weakly-supervised Visual Grounding of Phrases with Linguistic Structures</title> 
+<style type="text/css">
+#primarycontent h1 {
+	font-variant: small-caps;
+}
+#primarycontent h3 {
+}
+#primarycontent teasertext {
+	text-align: center;
+}
+#primarycontent p {
+	text-align: center;
+}
+#primarycontent {
+	text-align: justify;
+}
+#primarycontent p {
+	text-align: justify;
+}
+#primarycontent p iframe {
+	text-align: center;
+}
+.featart {
+  margin:4px;
+}
+</style>
+<script async="" src="./files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32372780-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+  function togglevis(elid){
+    el=document.getElementById(elid);
+    aelid=elid+"a";
+    ael=document.getElementById(aelid);
+    if(el.style.display=='none'){
+      el.style.display='inline-table';
+      ael.innerHTML="[Hide BibTex]";
+    }else{
+      el.style.display='none';
+      ael.innerHTML="[Show BibTex]";
+    }
+  }
+</script>
+</head> 
+<body itemscope="" itemtype="http://schema.org/ScholarlyArticle"> 
+<div id="primarycontent"> 
+<p class="hiddenDiv" itemprop="url"></p>
+<h1 align="center" itemprop="name"><strong>Weakly-supervised Visual Grounding of Phrases with Linguistic Structures</strong></h1>
+<h1 align="center"><img src="./files/teaser.png" itemprop="image" width="800" alt="teaserImage"></h1>
+<p style="text-align:center;margin-bottom:-15px;font-size:1em;font-weight:bold;">Presenting in <a href="http://cvpr2017.thecvf.com/" target="_blank">CVPR 2017</a></p>
+<h3>People</h3>
+
+<ul id="people" itemprop="accountablePerson">
+<li><a href="http://fanyix.cs.ucdavis.edu/">Fanyi Xiao</a></li>
+<li><a href="http://cs.brown.edu/~ls/">Leonid Sigal</a></li>
+<li><a href="http://web.cs.ucdavis.edu/~yjlee/">Yong Jae Lee</a></li>
+</ul>
+<h3>Abstract</h3>
+
+
+<p style="padding-left: 10px;	padding-right: 10px;">
+We propose a weakly-supervised approach that takes image-sentence pairs as input
+and learns to visually ground (i.e., localize) arbitrary linguistic phrases, in the form of spatial attention masks. Specifically, the model is trained with images and their associated image-level captions, without any explicit region-to-phrase correspondence annotations. To this end, we introduce an end-to-end model which learns visual groundings of phrases with two types of carefully designed loss functions. In addition to the standard discriminative loss, which enforces that attended image regions and phrases are consistently encoded, we propose a novel structural loss which makes use of the parse tree structures induced by the sentences. In particular, we ensure complementarity among the attention masks that correspond to sibling noun phrases, and compositionality of attention masks among the children and parent phrases, as defined by the sentence parse tree. We validate the effectiveness of our approach on the Microsoft COCO and Visual Genome datasets.
+</p>
+
+
+<h3>Paper</h3>
+<table><tbody><tr>
+  <td>
+  </td>
+  <td valign="middle">
+    <p style="text-align:left;margin-top:5px;">
+    <span style="font-size:12px">
+    </span></p>
+    <p>
+    </p>
+
+<p style="margin-top:10px;">
+
+</p><p style="text-align:left;"><span style="font-size:4px;">&nbsp;<br></span> Fanyi Xiao, Leonid Sigal and Yong Jae Lee </br><a href="./files/cvpr2017.pdf"><b>Weakly-supervised Visual Grounding of Phrases with Linguistic Structures</b></a> <br>In <i>CVPR 2017</i>
+   <a href="javascript:togglevis('fanyix17')" id="showbib">[Show BibTex]</a><br>
+  </p></td>
+</tr></tbody></table>
+      <table class="bibtex" style="display:none;margin-top:20px;" id="fanyix17"><tbody><tr><td>
+          <pre>@inproceedings{xiao-cvpr2017,
+  title = {Weakly-supervised Visual Grounding of Phrases with Linguistic Structures},
+  author = {Xiao, Fanyi and Sigal, Leonid and Lee, Yong Jae},
+  booktitle = {Computer Vision and Pattern Recognition (CVPR)},
+  year = {2017}
+}
+          </pre>
+       <!--</div>-->
+       </td></tr></tbody></table>
+<p></p>
+
+<!--<h3 style="clear:both">Video</h3><br/><br/>
+  <iframe width="800" height="450" src="http://www.youtube.com/embed/s5-30NKSwo8?version=3&fs=1&feature=player_embedded&fs=1&hd=1&ap=%2526fmt%3D22" frameborder="1" allowfullscreen></iframe>
+</p>-->
+
+
+
+
+<h3 style="clear:both">Acknowledgments</h3>
+
+<p style="padding-left: 10px; padding-right: 10px;">
+A big thanks to <a href="https://www.disneyresearch.com/people/david-zimmerman/">Dave</a>, who has been super responsive and helpful for any of our system issue! 
+</p>
+
+<p style="padding-left: 10px; padding-right: 10px;">
+This research was supported partially by NVidia hardware grant
+</p>
+
+<p style="padding-left: 10px; padding-right: 10px;">
+Comments, questions to <a href="mailto:fanyix@cs.ucdavis.edu" target="_blank">Fanyi Xiao</a>
+</p>
+
+</div>
+
+
+
+
+
+</body></html>

@@ -1,0 +1,140 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="StyleSheet" href="./files/style.css" type="text/css" media="all"> 
+
+<title>Video Object Detection with an Aligned Spatial-Temporal Memory</title> 
+<style type="text/css">
+#primarycontent h1 {
+	font-variant: small-caps;
+}
+#primarycontent h3 {
+}
+#primarycontent teasertext {
+	text-align: center;
+}
+#primarycontent p {
+	text-align: center;
+}
+#primarycontent {
+	text-align: justify;
+}
+#primarycontent p {
+	text-align: justify;
+}
+#primarycontent p iframe {
+	text-align: center;
+}
+.featart {
+  margin:4px;
+}
+</style>
+<script async="" src="./files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32372780-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+  function togglevis(elid){
+    el=document.getElementById(elid);
+    aelid=elid+"a";
+    ael=document.getElementById(aelid);
+    if(el.style.display=='none'){
+      el.style.display='inline-table';
+      ael.innerHTML="[Hide BibTex]";
+    }else{
+      el.style.display='none';
+      ael.innerHTML="[Show BibTex]";
+    }
+  }
+</script>
+</head> 
+<body itemscope="" itemtype="http://schema.org/ScholarlyArticle"> 
+<div id="primarycontent"> 
+<p class="hiddenDiv" itemprop="url"></p>
+<h1 align="center" itemprop="name"><strong>Video Object Detection with an Aligned Spatial-Temporal Memory</strong></h1>
+<h1 align="center"><img src="./files/teaser.png" itemprop="image" width="800" alt="teaserImage"></h1>
+<p style="text-align:center;margin-bottom:-15px;font-size:1em;font-weight:bold;">To appear in <a href="https://eccv2018.org/" target="_blank">ECCV 2018</a></p>
+<h3>People</h3>
+
+<ul id="people" itemprop="accountablePerson">
+<li><a href="http://fanyix.cs.ucdavis.edu/">Fanyi Xiao</a></li>
+<li><a href="http://web.cs.ucdavis.edu/~yjlee/">Yong Jae Lee</a></li>
+</ul>
+<h3>Abstract</h3>
+<p style="padding-left: 10px;	padding-right: 10px;">
+We introduce Spatial-Temporal Memory Networks for video object detection. At its core, a novel Spatial-Temporal Memory module (STMM) serves as the recurrent computation unit to model long-term temporal appearance and motion dynamics. The STMM's design enables full integration of pretrained backbone CNN weights, which we find to be critical for accurate detection. Furthermore, in order to tackle object motion in videos, we propose a novel MatchTrans module to align the spatial-temporal memory from frame to frame.  Our method produces state-of-the-art results on the benchmark ImageNet VID dataset, and our ablative studies clearly demonstrate the contribution of our different design choices. 
+</p>
+
+
+<h3>Paper</h3>
+<table><tbody><tr>
+  <td>
+  </td>
+  <td valign="middle">
+    <p style="text-align:left;margin-top:5px;">
+    <span style="font-size:12px">
+    </span></p>
+    <p>
+    </p>
+
+<p style="margin-top:10px;">
+
+</p><p style="text-align:left;"><span style="font-size:4px;">&nbsp;<br></span> Fanyi Xiao and Yong Jae Lee </br><a href="./files/eccv2018.pdf"><b>Video Object Detection with an Aligned Spatial-Temporal Memory</b></a> <br>In <i>ECCV 2018</i>
+   <a href="javascript:togglevis('fanyix17')" id="showbib">[Show BibTex]</a><br>
+  </p></td>
+</tr></tbody></table>
+      <table class="bibtex" style="display:none;margin-top:20px;" id="fanyix17"><tbody><tr><td>
+          <pre>@inproceedings{xiao-eccv2018,
+  title = {Video Object Detection with an Aligned Spatial-Temporal Memory},
+  author = {Xiao, Fanyi and Lee, Yong Jae},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year = {2018}
+}
+          </pre>
+       <!--</div>-->
+       </td></tr></tbody></table>
+<p></p>
+
+<!--<h3 style="clear:both">Video</h3><br/><br/>
+  <iframe width="800" height="450" src="http://www.youtube.com/embed/s5-30NKSwo8?version=3&fs=1&feature=player_embedded&fs=1&hd=1&ap=%2526fmt%3D22" frameborder="1" allowfullscreen></iframe>
+</p>-->
+
+<h3>Additional materials</h3>
+
+<p style="padding-left: 10px;	padding-right: 10px;">
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Vs3LqY1s9GY"><b>Watch the video!</b></a></li>
+</ul>
+
+</p>
+
+
+<h3>Source Code</h3>
+<p style="padding-left: 10px;	padding-right: 10px;">
+Coming soon! 
+</p>
+
+
+<h3 style="clear:both">Acknowledgments</h3>
+
+<p style="padding-left: 10px; padding-right: 10px;">
+This work was supported in part by the ARO YIP W911NF17-1-0410, NSF CAREER IIS-1751206, AWS Cloud Credits for Research Program, and GPUs donated by NVIDIA. The views and conclusions contained in this document are those of the authors and should not be interpreted as representing the official policies, either expressed or implied, of ARO or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation herein. 
+</p>
+
+<p style="padding-left: 10px; padding-right: 10px;">
+Comments, questions to <a href="mailto:fanyix@cs.ucdavis.edu" target="_blank">Fanyi Xiao</a>
+</p>
+
+</div>
+
+
+
+
+
+</body></html>

@@ -1,0 +1,7 @@
+@inproceedings{xiao-eccv2018,
+  title={Video object detection with an aligned spatial-temporal memory},
+  author={Xiao, Fanyi and Lee, Yong Jae},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages={485--501},
+  year={2018}
+}

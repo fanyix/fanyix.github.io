@@ -1,0 +1,194 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="./files/analytics.js"></script><script async="" src="./files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-101183834-4');
+</script>
+
+
+
+  <!-- head -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="MoDist: Motion Distillation for Self-supervised Video Representation Learning">
+  <meta name="description" content="MoDist: Motion Distillation for Self-supervised Video Representation Learning">
+  <title>MoDist: Motion Distillation for Self-supervised Video Representation Learning</title>
+
+  <script src="./files/jsapi" type="text/javascript"></script>
+  <script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+  <link rel="stylesheet" type="text/css" href="./files/text.css">
+
+  <meta property="og:image" content="asset/images/modist.gif">
+  <meta property="og:title" content="MoDist: Motion Distillation for Self-supervised Video Representation Learning">
+</head>
+
+
+<body>
+<br>
+<center>
+  <span style="font-size:36px"> 
+  MoDist: Motion Distillation for Self-supervised Video Representation Learning </span></center>
+  <br>
+
+  <table align="center" width="600px">
+    <tbody><tr>
+      <td align="center" width="100px">
+        <center>
+          <span style="font-size:24px">
+            <a href="http://fanyix.cs.ucdavis.edu/" target="_blank">Fanyi Xiao
+            </a></span>
+        </center>
+      </td>
+      <td align="center" width="100px">
+        <center>
+          <span style="font-size:24px">
+            <a href="https://www.amazon.science/author/joseph-tighe" target="_blank">Joseph Tighe
+            </a></span>
+        </center>
+      </td>
+      <td align="center" width="100px">
+        <center>
+          <span style="font-size:24px"><a href="https://www.amazon.science/author/davide-modolo" target="_blank">Davide Modolo</a></span>
+        </center>
+      </td>
+    </tr></tbody>
+  </table>
+
+
+  <table align="center" width="650px">
+    <tbody><tr>
+    <td align="center" width="400px">
+      <center>
+        <span style="font-size:18px"><sup></sup>AWS AI Rekognition</span><br><br>
+      </center>
+    </td>
+  </tr></tbody></table>
+
+  <br>
+    <center>
+      <div class="container">
+        <div class="row">
+          <center>
+            <img src="./files/modist.gif" alt="alt text" style="width: 100%; object-fit: cover; max-width:60%;">
+          </center>
+          </div>
+    </div></center>
+  
+            
+<hr>
+<center><h1>Abstract</h1></center>
+<div align="justify">
+  <b>TL;DR </b> We propose a Motion Distillation (MoDsit) method to explicitly induce video representations that are sensitive to motion cues in a self-supervised setting and demonstrated SOTA results which largely closes the gap to fully supervised video pretraining. 
+  <br>
+  <br>
+  We present MoDist as a novel method to explicitly distill motion information into self-supervised video representations. 
+  Compared to previous video representation learning methods that mostly focus on learning motion cues implicitly from RGB inputs, we show that the representation learned with our MoDist method focus more on foreground motion regions and thus generalizes better to downstream tasks.
+  To achieve this, MoDist enriches standard contrastive learning objectives for RGB video clips with a cross-modal learning objective between a Motion pathway and a Visual pathway. 
+  We evaluate MoDist on several datasets for both action recognition (UCF101/HMDB51/SSv2) as well as action detection (AVA), and demonstrate state-of-the-art self-supervised performance on all datasets. 
+  Furthermore, we show that MoDist representation can be as effective as (in some cases even better than) representations learned with full supervision. 
+  Given its simplicity, we hope MoDist could serve as a strong baseline for future research in self-supervised video representation learning. 
+</div>
+<br>
+
+
+
+<hr>
+<center><h1>Paper</h1></center>
+
+
+<script type="text/javascript">
+function show_hide(eid) {
+    var x = document.getElementById(eid);
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+
+    <table align="center" width="700px">
+          <tbody><tr>
+                <td>
+                    <a href="."><img class="layered-paper-big" style="height:175px" src="./files/page1.png"></a>
+                </td>
+
+                <td width="500px">
+                    <span style="font-size:18px">
+                    <div class="title">
+                    <b>MoDist: Motion Distillation for Self-supervised Video Representation Learning</b>
+                    </div>
+
+                    <div class="authors">
+                    Fanyi Xiao,
+                    Joseph Tighe,
+                    Davide Modolo
+                    </div>
+
+                    <!-- <div class="conf">
+                    NeurIPS, 2020
+                    </div> -->
+
+                    <div class="links">
+                    <a href="javascript:;" onclick="show_hide(&#39;BibHan20&#39;)"> Bibtex </a> 
+                   | <a href="./files/modist.pdf"> PDF </a> 
+                   | <a href="https://arxiv.org/abs/2106.09703"> arXiv </a>
+                   | <a href="./files/modist.pptx"> Slides </a> 
+                   <!-- | <a href="."> Code (Coming soon) </a>  -->
+                    </div>
+
+                    <div style="display: none;" class="BibtexExpand" id="BibHan20">
+                    <div style="width:500px;overflow:visible;">
+                    <pre class="bibtex" style="font-size:12px">
+@article{xiao-modist2021,
+  title={MoDist: Motion Distillation for Self-supervised Video Representation Learning},
+  author={Fanyi Xiao and Joseph Tighe and Davide Modolo},
+  journal={arXiv preprint arXiv:2106.09703},
+  year={2021}
+}
+                    </pre>
+                    </div>
+                    </div>
+
+                    </span>
+                </td>
+
+          </tr>
+      </tbody></table>
+<br><br>
+
+
+
+
+<hr>
+<center><h1>Visualizations</h1></center>
+     <center>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/TpOggtBN4yo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </center>
+<br>
+
+
+<!-- <hr>
+<center><h1>Additional Materials</h1></center>
+<p>We provide our pre-extract flow edges from Kinetics <a href=".">here</a>.</p>
+<br> -->  
+
+
+<br><br>
+<br><br>
+
+<p style="text-align:center;font-size:14px;">
+    Webpage template modified from <a href="https://richzhang.github.io/splitbrainauto/">Richard Zhang</a>.
+</p>
+
+
+
+
+
+</body></html>
